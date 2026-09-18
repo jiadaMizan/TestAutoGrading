@@ -20,7 +20,6 @@ public class Student {
         this.studentId = studentId;
         this.name = name;
         this.gpa = gpa;
-
     }
 
     public String getStudentId() {
@@ -46,7 +45,7 @@ public class Student {
     public String getPredicate() {
         if (gpa >= 3.5) {
             return "Cum Laude";
-        } else if (gpa < 3.5 || gpa >= 3.0) {
+        } else if (gpa > 3.0) {
             return "Very Satisfactory";
         } else {
             return "Satisfactory";
