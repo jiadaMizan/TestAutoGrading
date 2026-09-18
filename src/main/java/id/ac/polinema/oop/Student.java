@@ -23,15 +23,15 @@ public class Student {
     }
 
     public String getStudentId() {
-        return studentId;
+        return this.studentId;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public double getGpa() {
-        return gpa;
+        return this.gpa;
     }
 
     /**
