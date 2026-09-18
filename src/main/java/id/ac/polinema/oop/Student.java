@@ -23,15 +23,15 @@ public class Student {
     }
 
     public String getStudentId() {
-        return this.studentId;
+        return studentId;
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public double getGpa() {
-        return this.gpa;
+        return gpa;
     }
 
     /**
@@ -43,9 +43,9 @@ public class Student {
      * @return graduation predicate
      */
     public String getPredicate() {
-        if (this.gpa >= 3.5) {
+        if (gpa >= 3.5) {
             return "Cum Laude";
-        } else if (this.gpa > 3.0) {
+        } else if (gpa >= 3.0 && gpa < 3.5) {
             return "Very Satisfactory";
         } else {
             return "Satisfactory";
